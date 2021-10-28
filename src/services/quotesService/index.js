@@ -1,1 +1,1 @@
-export * from "quotesService";
+export * from "./quotesService";

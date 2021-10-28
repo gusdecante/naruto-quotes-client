@@ -6,7 +6,7 @@ export const Quotes = ({ quote, speaker, onUpdate }) => {
   return (
     <Wrapper>
       <Quote>{quote}</Quote>
-      <Speaker>{speaker}</Speaker>
+      <Speaker>- {speaker}</Speaker>
       <Button onClick={onUpdate}>Quote No Jutsu</Button>
     </Wrapper>
   );
